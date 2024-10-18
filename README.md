@@ -64,8 +64,8 @@
       </a>
     </td>
     <td align="center" width="150px">
-      <a href="https://github.com/sseulgi" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/25220607?v=4" alt="한슬기" />
+      <a href="https://github.com/ssggii" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/132250255?v=4" alt="한슬기" />
       </a>
     </td>
     <td align="center" width="150px">
@@ -96,7 +96,7 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/sseulgi" target="_blank">
+      <a href="https://github.com/ssggii" target="_blank">
         한슬기
       </a>
     </td>
