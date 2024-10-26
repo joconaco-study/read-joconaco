@@ -93,7 +93,7 @@ connection.close();
 - 서버에서 메시지를 보낼 때, 다른 개발자가 이미 작성한 하위 문제에 대한 해결책을 재사용할 수 있음
     - 간결한 추상화 계층은 상위 수준의 문제를 해결하기 위해 몇 가지 개념만 알면 됨
 
-![alt text](image-3.png)
+![alt text](../static/image/2주차/image-3.png)
 
 - 어떤 문제를 하위 문제로 계속해서 나누어 내려가면서 추상화 계층을 만든다면, 같은 층위 내에서는 쉽게 이해할 수 있는 몇 개의 개념만을 다루기 때문에, 개별 코드는 특별히 복잡해 보이지 않을 것임
     - SW 엔지니어로서 문제를 해결할 때 위의 사항이 목표가 되어야 함
@@ -136,7 +136,7 @@ connection.close();
     - 패키지, namespace, 모듈
 - 코드의 단위는 다른 단위에 의존하는데 이로 인해 의존성 그래프가 형성됨
 
-![alt text](image-4.png)
+![alt text](../static/image/2주차/image-4.png)
 
 ## 2.3.1 API 및 구현 세부 사항
 
@@ -157,7 +157,7 @@ connection.close();
 - 어떤 코드를 호출하는 쪽에서 그 코드에 대해 알고 있는 사항을 ‘공개 API’라고 생각할 수 있음
     - 구현 세부 사항: API로 공개되지 않은 내용
 
-![alt text](image-5.png)
+![alt text](../static/image/2주차/image-5.png)
 
 - API는 호출하는 쪽에 공개할 개념만 정의하면 됨
     - 그 이외의 모든 것은 구현 세부 사항이기 때문에 코드를 API의 관점에서 생각하면 추상화 계층을 명확하게 만드는 데 도움이 됨
@@ -215,15 +215,15 @@ connection.close();
 - 코드 재사용성 및 일반화: 하위 문제에 대한 해결택을 한 클래스로 묶어 놓으면 다른 누군가가 이미 구현된 한 가지 해결책을 재사용할 기회가 줄어듦
 - 테스트 용이성 및 적절한 테스트: 로직이 여러 클래스로 나눠지면, 각 부분을 적절하게 테스트하기가 훨씬 쉬워짐
 
-![alt text](image-6.png)
+![alt text](../static/image/2주차/image-6.png)
 
 - ex) TextSummarizer
 
-![alt text](image-7.png)
+![alt text](../static/image/2주차/image-7.png)
 
 - 코드 개선 후
 
-![alt text](image-8.png)
+![alt text](../static/image/2주차/image-8.png)
 
 - 코드를 개선함으로써 얻는 장점
     - 코드의 재사용성이 좀 더 높아짐
@@ -243,7 +243,7 @@ connection.close();
 > 
 - 추상화 계층을 나타내기 위한 인터페이스를 정의함으로써 주어진 하위 문제를 해결하는 구현 클래스를 쉽게 교체할 수 있음 → 코드가 모듈화되고 설정 가능함
 
-![alt text](image-9.png)
+![alt text](../static/image/2주차/image-9.png)
 
 - 추상화 계층을 깔끔하게 구현하는 코드를 만드는 데 있어 인터페이스는 매우 유용한 도구
 
