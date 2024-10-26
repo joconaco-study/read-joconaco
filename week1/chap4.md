@@ -136,7 +136,7 @@ Failing Fast한 코드를 작성해야 하는 이유는 오류가 실제 위치�
 명확하게 어떤 오류가 발생했는지 누구나 다 인지할 수 있도록 하라는 것을 의미하는 것 같습니다.<br>
 예를 들어 DB 커넥션 정보를 제대로 입력하지 않은 상태에서 Spring Boot 서버를 구동하려고 할 때<br>
 
-<img src="static/image/failing_db_connection.png" width="80%" height="80%"></img>
+<img src="../static/image/failing_db_connection.png" width="80%" height="80%"></img>
 
 위와 같이 오류 메시지를 출력하고 프로그램을 중단하는 경우라고 생각합니다.
 
@@ -198,7 +198,7 @@ try {
 방식으로 날 수 있기 때문이다.
 
 저번 과제에서 저도 이 부분을 사용했었는데요. 참고해보시면 좋을 것 같습니다. ( [관련 링크](https://github.com/woowacourse-precourse/java-calculator-7/pull/27#discussion_r1810655263))
-<img src="static/image/return_primitive.png" width="80%" height="80%"></img>
+<img src="../static/image/return_primitive.png" width="80%" height="80%"></img>
 
 <br>
 
@@ -248,7 +248,7 @@ Null 객체는 실제 반환 값 처럼 보이지만 모든 멤버 함수는 아
 
 오류 전달 방법에는 명시적, 암시적 방법이 있다.
 
-<img src="static/image/explicit_implicit.png" width="80%" height="80%"></img>
+<img src="../static/image/explicit_implicit.png" width="80%" height="80%"></img>
 
 
 **명시적 전달 방법**
@@ -364,7 +364,7 @@ public Orders sampleMethod(MemberId id) {
 보통 Spring Boot를 사용해서 개발할 때 아래와 같이 에러 메세지, 헤더, 상태 코드 등의 데이터를<br> 
 응답하는데 이번 챕터는 이런 이야기를 하는 것 같습니다.
 
-<img src="static/image/response_message.png" width="80%" height="80%"></img>
+<img src="../static/image/response_message.png" width="80%" height="80%"></img>
 
 <br>
 
@@ -483,13 +483,13 @@ Unchecked Exception을 사용, 빠른 스프린트 단위의 생산성을 위함
 
 책에 색깔이 알록달록 하지 않아서 예제는 제가 만들어봤습니다.<br>
 private 멤머 name을 읽는 경우가 전현 없다는 컴파일 에러입니다.
-<img src="static/image/do_not_ignore_compile_warning_1.png" width="80%" height="80%"></img>
+<img src="../static/image/do_not_ignore_compile_warning_1.png" width="80%" height="80%"></img>
 
 다음은 `@SuppressWarnings("all")`을 사용해서 해당 경고를 무시할 수도 있긴 합니다.<br>
-<img src="static/image/do_not_ignore_compile_warning_2.png" width="80%" height="80%"></img>
+<img src="../static/image/do_not_ignore_compile_warning_2.png" width="80%" height="80%"></img>
 
 이렇게 하고 커밋하려고 하면 이렇게 warning이 뜹니다.<br>
-<img src="static/image/do_not_ignore_compile_warning_3.png" width="80%" height="80%"></img><br>
+<img src="../static/image/do_not_ignore_compile_warning_3.png" width="80%" height="80%"></img><br>
 
 ```text
 이 상태로 커밋하면 warning이 많아져서 저는 무조건 다 없애고 커밋하는데 여러분은 어떤가요?
