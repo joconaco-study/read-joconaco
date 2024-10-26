@@ -49,11 +49,6 @@
       </a>
     </td>
     <td align="center" width="150px">
-      <a href="https://github.com/rootTiket" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/92284769?v=4" alt="이근표" />
-      </a>
-    </td>
-    <td align="center" width="150px">
       <a href="https://github.com/yechan-kim" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/60172300?v=4" alt="김예찬" />
       </a>
@@ -61,11 +56,6 @@
     <td align="center" width="150px">
       <a href="https://github.com/Gilbert9172" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/83274792?v=4" alt="정길준" />
-      </a>
-    </td>
-    <td align="center" width="150px">
-      <a href="https://github.com/ssggii" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/132250255?v=4" alt="한슬기" />
       </a>
     </td>
     <td align="center" width="150px">
@@ -81,11 +71,6 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/sjk4618" target="_blank">
-        이근표
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/rlarlgnszx" target="_blank">
         김예찬
       </a>
@@ -93,11 +78,6 @@
     <td align="center">
       <a href="https://github.com/Gilbert9172" target="_blank">
         정길준
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/ssggii" target="_blank">
-        한슬기
       </a>
     </td>
     <td align="center">
