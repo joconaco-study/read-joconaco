@@ -19,7 +19,7 @@
 - 자신이 작성한 코드가 독립적으로 존재하는 경우는 거의 없음
     - 다른 개발자들이 작성한 코드에 의존할 것이고, 다른 엔지니어 또한 우리의 코드에 의존하는 코드를 작성할 것임
 
-![alt text](../static/image/2주차/image-10.png)
+![alt text](../static/image/someone_else's_code.png)
 
 ## 코드를 작성할 때 고려하면 유용한 3가지
 
@@ -200,7 +200,7 @@
     - 코드 계약의 분명한 항목을 통해 코드에 관해 명확하게 설명하는 것이 가능하다면 그렇게 하는 것이 더 바람직함
 - 코드를 오용할 수 있는 방법이 많을수록 실제로 오용되고 SW에 버그가 있을 가능성이 큼
 
-![alt text](../static/image/2주차/image-11.png)
+![alt text](../static/image/risk_of_code_misuse.png)
 
 ### 세부 조항을 제거하는 방법
 
@@ -209,7 +209,7 @@
     - 코드가 어떤 상태에 들어갈 수 있는지 혹은 입력이나 반환으로 어던 데이터의 유형을 취할 수 있는지 신중하게 생각해보면 이렇게 변경하는 것이 가능할 때가 있음
 - 코드를 오용하는 것이 불가능하면 다른 개발자들이 그 코드를 사용할 때 버그가 침투할 가능성이 훨씬 낮아짐
 
-![alt text](../static/image/2주차/image-12.png)
+![alt text](../static/image/remove_detailed_provisions.png)
 
 # 3.4 체크 및 어서션
 

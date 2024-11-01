@@ -18,7 +18,7 @@
 
 ## vs 저품질 코드
 
-![alt text](../static/image/2주차/image.png)
+![alt text](../static/image/high_quality_code_vs_low_quality_code.png)
 
 > 좋은 코드가 좋은 SW를 만들기 위한 유일한 조건은 당연히 아니지만, 중요한 조건 가운데 하나
 > 
@@ -79,7 +79,7 @@
     - 얼마나 자주 배포되는지는 조직과 팀마다 다름
 6. 테스트에 실패하거나 코드가 컴파일되지 않으면 코드베이스에 병합되는 것을 막거나 코드가 배포되는 것을 막음
 
-![alt text](../static/image/2주차/image-1.png)
+![alt text](../static/image/sw_develop_process.png)
 
 # 1.2 코드 품질의 목표
 
@@ -263,7 +263,7 @@
 > 테스트는 코드가 동작하고, 멈추지 않고 계속 잘 실행되도록 보장하기 위해 필수적인 부분이다.
 > 
 
-![alt text](../static/image/2주차/image-2.png)
+![alt text](../static/image/test_necessary.png)
 
 ### 테스트가 중요한 2가지 이유
 
