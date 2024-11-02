@@ -71,7 +71,7 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/rlarlgnszx" target="_blank">
+      <a href="https://github.com/yechan-kim" target="_blank">
         김예찬
       </a>
     </td>
